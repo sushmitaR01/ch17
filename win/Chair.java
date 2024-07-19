@@ -1,0 +1,8 @@
+class Chair
+{
+	
+}
+class Fan
+{
+	
+	}
