@@ -1,4 +1,4 @@
-class Tiger
+class Ring
 {
 	public static void run()
 	{
