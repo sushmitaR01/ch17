@@ -16,11 +16,13 @@ import com.xworkz.demo.use.ShoppersinMall;
 public class HotelRunner {
 
 	public static void main(String[] args) {
+		
 		HotelRule hotelRule = new CanaraHotelRuleImpl();
 
 		FoodSafetyDepartment foodSafetyDepartment = new FoodSafetyDepartment();
 		foodSafetyDepartment.setHotelRule(hotelRule);
 		foodSafetyDepartment.inspection();
+
 		System.out.println("=================");
 
 		TrafficRule TrafficRule = new RoadRules();
@@ -30,13 +32,12 @@ public class HotelRunner {
 		System.out.println("=================");
 
 		MallRule mallRule = new LuluMall();
-
 		ShoppersinMall shoppersinMall = new ShoppersinMall(mallRule);
 		shoppersinMall.buyCloths();
+
 		System.out.println("=================");
 
 		PGRule pGRule = new KushiPg();
-
 		RaviPg raviPg = new RaviPg(pGRule);
 		raviPg.available();
 
