@@ -1,0 +1,195 @@
+1) What is java ? Explain briefly? list the features of java programming language.
+
+Ans: Java is a object oriented programing language and it is high level platform independent programming language.java is a general-purpose programming  language intended to let programmers Write Once, Run Anywhere (WORA). This means that compiled Java code can run on all platforms that support Java without the need to recompile.
+
+     the features of java are:
+     1. Database connectivity
+     2. Object-oriented
+     3. Multithreading
+     4. Automatic memory management
+
+
+2) Java is Platform Independent if then how ? what is JDK, JRE , JVM
+  
+Ans: Java is platform-independent because it is compiled to a bytecode that can be run on any device that has a Java Virtual Machine (JVM). This means that you can write a Java program on one platform (such as Windows) and then run it on a different platform (such as macOS or Linux) without making any changes to the code.
+
+      JDK:   JDK stands for Java Development Kit, which is a software development environment for building Java applications,   applets, and components. It includes a variety of tools and utilities for developing and testing programs, such as:
+a. Development tools: Tools for developing, executing, debugging, and documenting programs
+b. Runtime environment: Includes the Java Virtual Machine (JVM), class libraries, and other files that support the execution of programs
+
+     JRE: The Java Runtime Environment (JRE) is a software layer that allows Java programs to run on any operating system without modification.    It's a key component of the Java programming language and is made up of a number of components, including:
+   a. java virtual machine (JVM): Executes Java programs 
+   b. java class libraries: Provide the resources a Java program needs to run 
+   c. java class loader: Loads classes and connects them to the core Java class libraries 
+   d. deployment Kit : Include Java Web Start and Java Plug-in 
+   
+
+
+    JVM:JVM stands for Java Virtual Machine. It provides a runtime environment for driving Java applications or code. JVM is an abstract machine that converts the Java bytecode into a machine language. It is also capable of running the programs written by programmers in other languages (compiled to the Java bytecode).
+
+
+
+3). What is JIT?
+     Ans: In Java, JIT stands for Just-In-Time, which is a compiler that improves the performance of Java applications by converting bytecode to machine code while the program is running. JIT analyzes the code to identify parts that can be optimized, and then applies optimizations to improve performance.
+
+    What is class loader?
+     Ans:  A class loader is an object that is responsible for loading classes. The class Class Loader is an abstract class. Given the binary name of a class, a class loader should attempt to locate or generate data that constitutes a definition for the class.
+
+What is class variable?
+
+A class variable in Java is a variable that is associated with a class and has a single copy, regardless of how many instances of the class are created. Class variables are also known as static fields. 
+
+4). What is Association Which type of relationship is achieved ?
+
+    Ans: Association is a semantically weak relationship  between otherwise unrelated objects. An association is a using relationship between two or more objects in which the objects have their own lifetime and there is no owner. Composition and Aggregation are the two forms of association.
+An association is a relationship between two or more objects that can be defined by common attributes, and it can be represented as a one-to-one, one-to-many, many-to-one, or many-to-many relationship.
+
+5). What are Packages in java? What is Uses of java Packages ?
+A package in Java is used to group related classes. Think of it as a folder in a file directory. We use packages to avoid name conflicts, and to write a better maintainable code.
+
+
+6). Explain different data types in java ?with example
+
+Data types specify the different sizes and values that can be stored in the variable. There are two types of data types in Java:
+
+Primitive data types: The primitive data types include Boolean, char, byte, short, int, long, float and double.
+Non-primitive data types: The non-primitive data types include Classes, Interfaces, and Arrays.
+* byte	- Stores small integers.
+                   eg: byte a = 100.
+       * short	- Stores larger integer.
+                   eg: short s = 30000.
+       * int	- Stores most common integers	
+                   eg: int num = 100000;
+       * long	- Stores very large integers	
+                   eg: long l = 10000000000L
+       * float	-  Stores single-precision decimals	
+                   eg: float f = 5.75f;
+       * double	-  Stores double-precision decimals	
+                   e.g.: double d = 19.99;
+       * Boolean- Stores true/false values	
+                   eg: Boolean flag = true;
+       * char	- Stores single characters	
+                   e.g.: char c = 'A';
+7). Can we declare Pointer in a java?
+
+As discussed earlier, Java does not support traditional pointers like languages such as C or C++. However, Java does use references, which are somewhat equivalent to “safe pointers”. These references point to objects in the heap, but users cannot manipulate them as raw memory addresses
+
+8). What is wrapper class in java? why do we need a Wrapper classes ? explain with an example?
+   
+Wrapper classes also provide a way to handle Exceptions in Java. For example, the Integer wrapper class provides the parse Int() method, which is used to parse an int from a String. If the specified String does not contain a valid integer value, the process will throw a Number Format Exception.
+Example:int a=20;  
+Integer i=Integer. valueOf(a);//converting int into Integer explicitly  
+Integer j=a;//autoboxing, now compiler will write Integer. valueOf(a) internally  
+  
+System.out.println(a+" "+i+" "+j);  
+}}  
+
+
+9). Which is a default value of a local variable ?
+The default value stored in local variables in most programming languages is undefined or null. This means that until a value is explicitly assigned to a local variable, it does not have a defined value and attempting to access it may result in an error or unexpected behavior.
+
+ 
+10).What is constructor?  explain types of constructor and briefly explain constructor chaining?
+In object-oriented programming, a constructor is a special function that prepares a new object for use by initializing its data members. A constructor is called when an object is created, and it's similar to a method but has some key differences: 
+No return type: A constructor doesn't have an explicit return type. 
+Not inherited: A constructor isn't implicitly inherited. 
+  In Java, constructors can be divided into 4 types: 
+1.No-Argument Constructor. :Constructor with an no arguments
+2. Parameterized Constructor.: Constructor with a parameters.
+3. Default Constructor: Constructor with a default values.
+4.copy constructor. creating a copy of an constructor.
+
+In Java, a constructor is a block of code that's called when an object is created using the new() keyword. If no constructor is specified, the Java compiler will call a default constructor.
+
+Constructor chaining is a feature in Java that allows one constructor to call another constructor within the same class or superclass. This works like a chain, with one constructor leading to another. The this() keyword is used to chain constructors within the same class, while the super() keyword is used to call a constructor from the parent class. 
+
+11).What is methods explain types of methods and write with an example?
+
+A method is a block of code that performs a specific action when called, and is used in object-oriented programming (OOP). Methods are similar to functions, subroutines, or algorithms, and can include loops and other programming components. 
+
+
+
+There are two types of methods in Java:
+
+1.Predefined Method :
+
+In Java, predefined methods are the method that is already defined in the Java class libraries is known as predefined methods. It is also known as the standard library method or built-in method. We can directly use these methods just by calling them in the program at any point. Some pre-defined methods are length(), equals(), compareTo(), sqrt(), etc. When we call any of the predefined methods in our program, a series of codes related to the corresponding method runs in the background that is already stored in the library
+public class Demo   
+{  
+public static void main(String[] args)   
+{  
+// using the max() method of Math class  
+System.out.print("The maximum number is: " + Math.max(9,7));  
+}  
+}  
+2.User-defined Method:
+The method written by the user or programmer is known as a user-defined method. These methods are modified according to the requirement.
+/user defined method  
+public static void findEvenOdd(int num)  
+{  
+//method body  
+if(num%2==0)   
+System.out.println(num+" is even");   
+else   
+System.out.println(num+" is odd");  
+}  
+
+
+
+12). What is polymorphism Explain Briefly?
+Polymorphism is a fundamental concept in Java programming that allows objects to take on different forms and respond to the same action in multiple ways
+
+Polymorphism is the ability of objects to perform a single action in different ways. It's derived from the Greek words poly and morph, which mean many and forms respectively.
+Polymorphism is achieved through method overloading and method overriding. It allows objects of different classes to be treated as objects of a common parent class. 
+
+13). What is Inheritance ? Explain types of inheritance briefly?
+
+
+Inheritance in Java is a mechanism in which one object acquires all the properties and behaviors of a parent object. It is an important part of OOPs (Object Oriented programming system).
+The idea behind inheritance in Java is that you can create new classes that are built upon existing classes. When you inherit from an existing class, you can reuse methods and fields of the parent class. Moreover, you can add new methods and fields in your current class also.
+Inheritance represents the IS-A relationship which is also known as a parent-child relationship.
+Single Inheritance :
+When a class inherits another class, it is known as a single inheritance. In the example given below, Dog class inherits the Animal class, so there is the single inheritance.
+
+Multilevel Inheritance :
+When there is a chain of inheritance, it is known as multilevel inheritance. As you can see in the example given below, Baby Dog class inherits the Dog class which again inherits the Animal class, so there is a multilevel inheritance.
+
+Hierarchal Inheritance:
+Multiple classes share a single super class.
+
+Hybrid Inheritance:
+combines the other type of inheritance to offer flexibility in complex software design.
+
+Multiple Inheritance:
+The Multiple inheritance will not supports to the java and but it is achived by an interfaces.
+
+15).What is interfaces in java? What is difference between  an abstract class and an interface?
+an interface is a reference type that specifies a class's behavior by providing an abstract type. Interfaces are used to achieve abstraction, polymorphism, and multiple inheritance. They can also be used to specify how software interacts, or as contracts. 
+
+the difference between a abstract class and an interfaces is 
+The Abstract class and Interface both are used to have abstraction. An abstract class contains an abstract keyword on the declaration whereas an Interface is a sketch that is used to implement a class. Explore more differences between abstract class and interface in java.
+
+16). What  is the  Siginificance of the default and static keyword in interface ? explain types of interfaces
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+

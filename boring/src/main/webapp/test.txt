@@ -1,0 +1,1 @@
+checking server is working from a eclipse
