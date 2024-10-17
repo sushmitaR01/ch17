@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Railway Booking</title>
+</head>
+<body>
+	<h1>Railway Booking Form</h1>
+	</br>
+	<form class="form-inline" action="railway" method="post">
+		<pre>
+<div class="form-group">
+<label for="name">Name</label>
+<input type="text" class="form-control" name="firstname" id="name"/>
+  </div>
+Source   <select class="form-select"  name="source"id="source">
+<option>Select a Source</option>
+  <option>Banglore</option>
+  <option>Mysore</option>
+  <option>Tumkur</option>
+  <option>Davangere</option>
+  <option>Ranebennur</option>
+  <option>Haveri</option>
+  <option>Hubli</option>
+  <option>Dharwad</option>
+  <option>Belgavi</option>
+</select></br>
+Destination   <select class="form-select" name="destination" id="destination">
+<option>Select a Destination</option>
+  <option>Chikmagalur</option>
+  <option>Dandeli</option>
+  <option>Mangalore</option>
+  <option>Coorg</option>
+  <option>Gokarna</option>
+  <option>Bidar</option>
+  <option>Murudeshwar</option>
+  <option>Dharwad</option>
+  <option>Maharastra</option>
+</select></br>
+Start Date <input type="date" class="form-control" name="startdate" id="startdate"
+				min="2000-01-01" max="2030-12-31" required></br>
+Return Date <input type="date" class="form-control" name="returndate" id="returndate"
+				min="2000-01-01" max="2030-12-31" required></br>
+Seat Type   <select class="form-select" name="seattype" id="seattype">
+<option>Select seat type</option>
+  <option>First Class (FC)</option>
+  <option> AC Chair Class (CC)</option>
+  <option>Sleeper Class (SL)</option>
+  <option>Second Class (2S)</option>
+  <option> Unreserved/General Class (2S)</option>
+  <option> CC (AC Chair Car).</option>
+  </select></br>
+<div class="form-group">
+<label for="totalticket">Total No Of Tickets:</label>
+<input type="number" class="form-control" name="totalticket" id="totalticket">
+  <div class="form-group">
+<label for="Noofmale">No Of male:</label>
+<input type="number" class="form-control" name="Noofmale" id="Noofmale">
+  <div class="form-group">
+<label for="y">No Of Female:</label>
+<input type="number" class="form-control" name="Nooffemale" id="Nooffemale">
+  <div class="checkbox">
+    <label><input type="checkbox"> Remember me</label>
+  <input type="submit" class="btn btn-default" value="submit"/>
+  </div>
+  </div>
+ </div>
+ </div>
+  </pre>
+	</form>
+</body>
+</html>
