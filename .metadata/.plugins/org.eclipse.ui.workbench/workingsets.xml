@@ -5,6 +5,8 @@
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1728283649599_3" label="WebServer" name="WebServer">
 <item elementID="=lamdaFunction/src&lt;com.xworkz.lamdaFunction.functional.runner{CustomerRunner.java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Jet" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Order" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Railway" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1726549533174_2" label="Window Working Set" name="Aggregate for window 1726549533174"/>
 <mruList name="WebServer"/>

@@ -1,0 +1,12 @@
+package com.xworkz.Collectionmethods.enm;
+
+public enum LocationType {
+	GTWORLDMALLBENGALURU,
+	ORIONMALL,
+	MANTRISQUAREMALL,
+	LULUMALLBENGALURU,
+	VRBENGALURU,
+	BENGALURUCENTRALMALL;
+	
+
+}
