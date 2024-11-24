@@ -82,6 +82,9 @@ public class MallRunner {
 		Collection<Double> landDimension = collection.stream().map(MallDTO::getLandDimension).sorted()
 				.collect(Collectors.toList());
 		System.out.println("Land dimension in ascending order:" + landDimension);
+		
+		  
+	     
 
 	}
 

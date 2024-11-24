@@ -7,7 +7,104 @@
 <item elementID="=Jet" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Order" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Railway" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=FoodOrder Servlet" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Servlet Forms with DTO" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Servletand JSP integration" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=signupform" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=product form" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=ticket booking" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1729573389786_4" label="Jdbc" name="Jdbc">
+<item elementID="=Food" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Television" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Helmet" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Insects" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Toys" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=bicycle" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=metrotrain" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=cabel" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=fire" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=grass" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=bread" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=breadupdate" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=breaddelete" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=firedelete" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=fireupdate" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=grassupdate" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=grassdelete" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=train reservations" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=contact form" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=order form" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=User form" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1732076481055_6" label="jpa" name="jpa">
+<item elementID="=breaddelete" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Demo" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=firedelete" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Servlet Forms with DTO" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=cabel" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=product form" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Servers" type="4"/>
+<item elementID="=test" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=ticket booking" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Television" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Examples" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=metrotrain" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Collection stream" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Servletand JSP integration" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Food" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=map looping" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=DiffProject" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Interface invoke" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Partial abstraction" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=interface" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Standards" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Collections" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=grass" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=fireupdate" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=collection set" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=contact form" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=lamdaFunction" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Collection methods" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=order form" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=fire" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Helmet" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Exceptions" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Order" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Railway" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Task" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=100\% abstraction" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Toys" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Example on  Encapcapsulation" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Examples on Interface" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=signupform" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=grassupdate" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=boring" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Enum Programs" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=grassdelete" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=bicycle" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Jet" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=bread" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=FoodOrder Servlet" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=train reservations" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Rulees" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=breadupdate" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Insects" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=speaker" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1732076548007_7" label="mavenjpa" name="mavenjpa">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/speakers" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/animations" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/bag" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/watch" type="4"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1726549533174_2" label="Window Working Set" name="Aggregate for window 1726549533174"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1729658422341_5" label="Multiple Working Sets" name="Aggregate:Jdbc:WebServer:">
+<workingSet IMemento.internal.id="Jdbc"/>
+<workingSet IMemento.internal.id="WebServer"/>
+</workingSet>
+<mruList name="mavenjpa"/>
+<mruList name="jpa"/>
+<mruList name="Jdbc"/>
 <mruList name="WebServer"/>
 </workingSetManager>
